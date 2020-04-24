@@ -54,7 +54,7 @@ namespace Basic{
         Mat.resize(size);
         type_name = typeid(type).name();
         for(unsigned int i = 0;i < size;i++)
-            Mat[i].resize(nrow);
+            Mat[i].resize(ncol);
         for(unsigned int i = 0;i < nrow;i++)
             for(unsigned int j = 0;j < ncol;j++)
               Mat[i][j] = vdef;
